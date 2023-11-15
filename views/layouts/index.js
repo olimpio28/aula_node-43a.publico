@@ -20,7 +20,7 @@ app.use(express.json())
 
 app.post("/register/save", (request, response) => {
 
-
+// add codigos novos de teste
     const {title, pageqty} = request.body
 
     const query = ' INSERT INTO  books (title, pageqty)'
